@@ -5,4 +5,4 @@ const showYourName = (name) => {
 	return (`Hello, ${name} how are you doing today?`)
 }
 
-showYourName('Tom');
+console.log (showYourName('Tom'));
