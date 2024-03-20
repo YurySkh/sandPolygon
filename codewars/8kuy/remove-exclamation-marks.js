@@ -3,10 +3,7 @@
 
 //SOLUTION:
 function removeExclamationMarks(s) {
-  return s
-    .split("")
-    .filter((item) => item !== "!")
-    .join("");
-}
+	return s.replace(/!/gi, '');
+ }
 
 removeExclamationMarks("Hello World!");
